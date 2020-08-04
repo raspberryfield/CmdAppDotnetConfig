@@ -1,0 +1,8 @@
+{
+  "StorageConnectionString": "UseDevelopmentStorage=true",
+  "TestSetting1": "Testing this very much...",
+  "TestSetting2": {
+    "SubSetting1": "Hello",
+    "SubSetting2": "World"
+  }
+}

@@ -1,0 +1,18 @@
+How to use some config libraries in dotnet.
+
+https://zimmergren.net/using-appsettings-json-instead-of-web-config-in-net-core-projects/
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.configurationbuilder?view=dotnet-plat-ext-3.1&viewFallbackFrom=netcore-3.1
+https://aspnetcore-cn.readthedocs.io/en/latest/fundamentals/configuration.html
+
+
+
+https://pradeeploganathan.com/dotnet/configuration-in-a-net-core-console-application/
+
+Only in development and testing:
+* Add config file to project-> properties-> copy to output directory.
+
+
+#Logging
+https://www.blinkingcaret.com/2018/02/14/net-core-console-logging/
++ youtube IAmTimCorey
+* Nuget Package - Serilog. -> Serilog.Sinks.File
