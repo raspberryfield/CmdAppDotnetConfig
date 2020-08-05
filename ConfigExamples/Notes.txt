@@ -16,3 +16,9 @@ Only in development and testing:
 https://www.blinkingcaret.com/2018/02/14/net-core-console-logging/
 + youtube IAmTimCorey
 * Nuget Package - Serilog. -> Serilog.Sinks.File
+
+ConsoleApp3
+* Test different logging approaches.
+* date format string: https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+* Nuget Package - Serilog. -> Serilog.Sinks.File
+
