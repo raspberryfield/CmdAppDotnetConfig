@@ -21,7 +21,7 @@ namespace ConsoleApp3
 
             Console.WriteLine(config["path_log_directory"]);
 
-            var logger = new LogHandler()._logger;
+            var logger = new LogHandler().Logger;
 
             logger.Information(">> This is just a test!");
 

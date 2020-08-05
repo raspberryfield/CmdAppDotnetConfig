@@ -11,7 +11,7 @@ namespace ConsoleApp3
     {
         private readonly string _pathLogDirectory = @".\Logs";
         private string _pathLogFile;
-        public Logger _logger;
+        public Logger Logger { get; set; }
 
         public LogHandler(){
             CreateLogFile();
@@ -32,7 +32,7 @@ namespace ConsoleApp3
         //Create a logger from Serilog.Core.Logger library.
         private void CreateLogger()
         {
-            _logger = new LoggerConfiguration().WriteTo.File(_pathLogFile).CreateLogger();
+            Logger = new LoggerConfiguration().WriteTo.File(_pathLogFile).CreateLogger();
         }
 
     }
